@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            penguin: '#FFFBF0',
+            graypen: '#F1F1F1',
+            btntop: '#A4BC46',
+            btnbottom: '#85A019',
+            bepeny: '#FABE4C',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="container m-auto bg-penguin mb-6">
+
+    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img src="images/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#"
+                class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="sm:flex items-center justify-around">
+      <div class="space-y-2">
+        <h1 class="text-6xl uppercase font-bold">
+          <span class="text-bepeny">Be The Penguins</span>
+          <br>
+          <span>Of Winter</span>
+        </h1>
+        <p>
+          Be The penguin for wareing winter cloths. We <br> know some people who buy from penguin fashion.
+        </p>
+        <button class="uppercase px-5 py-3 text-white bg-gradient-to-b from-btntop to-btnbottom rounded-xl"><svg xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>Buy Now</button>
+      </div>
+      <div><img src="images/model.png" alt=""></div>
+    </section>
+  </header>
+  <main>
+    <section class="container m-auto my-24">
+      <h1 class="uppercase text-5xl font-semibold mb-16">
+        WOMan Jacket
+      </h1>
+      <div class="sm:flex gap-5 items-center justify-center columns-1">
+        <div class="inline-block w-80 rounded-2xl bg-white drop-shadow-xl">
+          <div class="flex items-center justify-center pt-5">
+            <div class="bg-graypen flex w-72 h-80 rounded-2xl items-center justify-center">
+              <img src="images/jacket-1.png" alt="" class="object-contain w-48">
+            </div>
+          </div>
+              <div class="p-4">
+                <h1 class="text-2xl my-3">Yellow Coat Jacket</h1>
+                <p>Yellow Coat Jacket Now is a New Collection today</p>
+                <div class="flex justify-between my-2">
+                  <h5 class="text-bepeny text-3xl">$234</h5>
+                  <button class="uppercase px-5 py-3 text-white bg-gradient-to-b from-btntop to-btnbottom rounded-xl"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="inline-block w-80 rounded-2xl bg-white drop-shadow-xl">
+          <div class="flex items-center justify-center pt-5">
+            <div class="bg-graypen flex w-72 h-80 rounded-2xl items-center justify-center">
+              <img src="images/jacket-1.png" alt="" class="object-contain w-48">
+            </div>
+          </div>
+              <div class="p-4">
+                <h1 class="text-2xl my-3">Yellow Coat Jacket</h1>
+                <p>Yellow Coat Jacket Now is a New Collection today</p>
+                <div class="flex justify-between my-2">
+                  <h5 class="text-bepeny text-3xl">$234</h5>
+                  <button class="uppercase px-5 py-3 text-white bg-gradient-to-b from-btntop to-btnbottom rounded-xl"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="inline-block w-80 rounded-2xl bg-white drop-shadow-xl">
+          <div class="flex items-center justify-center pt-5">
+            <div class="bg-graypen flex w-72 h-80 rounded-2xl items-center justify-center">
+              <img src="images/jacket-1.png" alt="" class="object-contain w-48">
+            </div>
+          </div>
+              <div class="p-4">
+                <h1 class="text-2xl my-3">Yellow Coat Jacket</h1>
+                <p>Yellow Coat Jacket Now is a New Collection today</p>
+                <div class="flex justify-between my-2">
+                  <h5 class="text-bepeny text-3xl">$234</h5>
+                  <button class="uppercase px-5 py-3 text-white bg-gradient-to-b from-btntop to-btnbottom rounded-xl"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>Buy Now</button>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
